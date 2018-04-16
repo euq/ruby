@@ -1,0 +1,26 @@
+*new repository
+$ git init
+
+*add file*
+$ git add . #or $ git add "filename"?
+$ git commit -m "initial commit" #What is "initial comit"?
+$ git push origin master 
+#Username
+#Password*
+
+*commit error*
+$ git config --global user.email "Your@mail.com"
+$ git config --global user.name "YourName"
+$ git commit -m "first commit"
+
+cf. $ git config --list
+
+*Other*
+$ git branch
+$ git show-ref
+
+*refarence*
+git remote add origin https://github.com/euq/ruby.git
+->https://qiita.com/koshihikari/items/dcf126fa9c0de2b6fa7e
+basic
+->https://techacademy.jp/magazine/6235
