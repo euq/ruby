@@ -6,8 +6,7 @@ Determine if it is possible that
 there are exactly X cats among these A+B animals
 '''
 s = gets.chomp!
-anm = split(s, ' ')
-puts anm
+anm = s.split(' ')
 a =anm[0].to_i 
 b = anm[1].to_i
 x = anm[2].to_i
