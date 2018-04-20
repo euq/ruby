@@ -15,8 +15,12 @@ $ git commit -m "first commit"
 
 cf. $ git config --list
 
-*Other*
+*Branch*
 $ git branch
+$ git branch (branch name)
+$ git checkout (branch name)
+$ git merge
+
 $ git show-ref
 
 *refarence*
